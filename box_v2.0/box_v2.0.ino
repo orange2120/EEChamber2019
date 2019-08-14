@@ -59,7 +59,7 @@ Servo Servo_2;
 #define Ser_2_lock 54
 #endif
 
-char password[4] = {'2', '2', '3', '2'};
+char password[4] = {'4', '7', '6', '3'};
 
 int Ser_1_pos = Ser_1_lock;
 int Ser_2_pos = Ser_2_lock;
