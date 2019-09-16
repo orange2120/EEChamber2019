@@ -14,7 +14,7 @@
 Servo Servo_1;
 Servo Servo_2;
 
-#define BOX_3
+#define BOX_6
 
 #ifdef BOX_1
 #define Ser_1_open 117
@@ -46,10 +46,10 @@ Servo Servo_2;
 #define Ser_2_open 110
 #define Ser_2_lock 17
 #endif
-#ifdef BOX_5
-#define Ser_1_open 105
+#ifdef BOX_6
+#define Ser_1_open 115
 #define Ser_1_lock 10
-#define Ser_2_open 145
+#define Ser_2_open 155
 #define Ser_2_lock 54
 #endif
 #ifdef BOX_test
@@ -59,7 +59,7 @@ Servo Servo_2;
 #define Ser_2_lock 54
 #endif
 
-char password[4] = {'4', '7', '6', '3'};
+char password[4] = {'4', '5', '6', '3'};
 
 int Ser_1_pos = Ser_1_lock;
 int Ser_2_pos = Ser_2_lock;

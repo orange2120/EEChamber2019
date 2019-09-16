@@ -4,7 +4,7 @@
  */
 #include <Bounce2.h>
 
-const uint8_t button_pin[] = {4, 5, 6, 7, 8, 9, 10};
+const uint8_t button_pin[] = {6, 7, 8, 9, 10, 4, 5};
 const uint8_t lock_pin = 11;
 
 #define nButton 7 // number of buttons
